@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+require('offline-plugin/runtime').install();
 
 class App extends Component {
   render() {
